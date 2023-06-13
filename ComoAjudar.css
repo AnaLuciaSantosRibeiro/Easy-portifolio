@@ -1,0 +1,36 @@
+h2{
+ 
+background-color: rgb(18, 192, 240);
+border: 2px solid;
+min-height:  100 vh;
+
+display:flex;
+
+
+
+  background: lightblue;
+  flex: 2 0 ;
+}
+.PIX{
+  background: #7ee88e;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px;
+  font-size: 50;
+
+}
+.flex-container {
+ display:flex;
+
+  /*isso centraliza o texto horizontalmente*/
+  justify-content: center;
+
+  /*isso centraliza o texto verticalmente*/
+  align-items:center;
+
+  height: 500px;
+  color: #fff;
+  font-size: 1.2rem;
+  background: #5893c4;
+}
